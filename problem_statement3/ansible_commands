@@ -1,0 +1,1 @@
+ansible -i hostsfile myserver -m copy -a "src=mnt/artefact/spring-petclinic-2.4.5.jar dest=~/apache-tomcat-8.5.32/webapps/"
