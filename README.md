@@ -1,5 +1,8 @@
 # loylogic_problem_statement
+Hi,
+I have tried to solve the problem statements given by you. Please go through the same.
 
+*************************************************************************************************************************
 I have created 3 seperate folders for 3 problem statements.
 
 (I)problem_statement1 folder has the terraform code to provision the infrastructure asked
@@ -17,3 +20,8 @@ I integrated the git repository to this freestyle project and in the build trigg
 (III)problem_statement3 folder has the ansible commands
 It has the inventory file "hostsfile" which has the destination IP of the private subnet ec2 machine.
 And the file ansible_command has the ansible adhoc command to depoy the artefact to the same private subnet ec2 machine.
+****************************************************************************************************************************
+
+Please reach out to me if you have any questions.
+Waiting to hear from you.
+Thank you.
