@@ -1,2 +1,0 @@
-[myserver]
-172.20.20.0/24 ansible_user=ubuntu
