@@ -185,7 +185,7 @@ resource "aws_instance" "private_instance" {
     instance_type = "t2.micro"
     ec2_subnet_id = aws_subnet.My_VPC_Private_Subnet.id
     security_groups = [aws_security_group.private_traffic.name]
-    user_data = file("server-script.sh")
+    user_data = file("private_ec2.sh")
     tags = {
         Name = "Private Server"
     }
@@ -195,7 +195,7 @@ resource "aws_instance" "public_instance" {
     ami = "ami-032598fcc7e9d1c7a"
     instance_type = "t2.micro"
     security_groups = [aws_security_group.web_traffic.name]
-    user_data = file("server-script.sh")
+    user_data = file("public_ec2.sh")
     ec2_subnet_id = aws_subnet.My_VPC_Public_Subnet.id
     tags = {
         Name = "Web Server"
